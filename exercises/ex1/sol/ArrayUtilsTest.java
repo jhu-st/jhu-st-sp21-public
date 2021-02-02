@@ -54,6 +54,6 @@ public class ArrayUtilsTest {
         assertEquals(3, ArrayUtils.oddOrPos(new int[]{-3, -2, 0, 1, 4}));
     }
 
-    //1e - fault, error & failure - same as above
+    
 
 }
