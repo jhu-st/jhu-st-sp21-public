@@ -47,7 +47,7 @@ public class ArrayUtilsTest {
         assertEquals(3, ArrayUtils.oddOrPos(new int[]{1, 2, 3}));
     }
 
-    //4d - fault and error and failure - not possible to write a test case that causes error but not failure
+    //4d (also 4e) - fault and error and failure - not possible to write a test case that causes error but not failure
     // The reason is that error states are not repairable by subsequent processing.
     @Test
     public void testOddOrPositiveBothPositivesAndNegatives() {
