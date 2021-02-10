@@ -2,7 +2,7 @@ import java.util.Stack;
 
 public class ExpUtils {
     /**
-     * This method decide an expression comprised of '(', ')', '[', ']', '{', and '}'
+     * This method decides if an expression comprised of '(', ')', '[', ']', '{', and '}'
      * is valid or not. An input expression is valid if:
      * 1. Open brackets must be closed by the same type of brackets.
      * 2. Open brackets must be closed in the correct order.
