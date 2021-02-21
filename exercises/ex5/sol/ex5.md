@@ -113,7 +113,7 @@ The following test case achieves SC and does NOT reveal a fault:
 // The following test case achieves SC
 @Test
 public void testCountOutside() {
-    assertEquals(0, CountOutsideRange.countOutsideRange(new int[]{5}, 3, 6));
+    assertEquals(1, CountOutsideRange.countOutsideRange(new int[]{7}, 3, 6));
 }
 ```
 
