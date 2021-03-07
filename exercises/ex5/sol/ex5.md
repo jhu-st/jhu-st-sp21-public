@@ -113,7 +113,7 @@ The following test case achieves SC and does NOT reveal a fault:
 // The following test case achieves SC
 @Test
 public void testCountOutside() {
-    assertEquals(0, CountOutsideRange.countOutsideRange(new int[]{5}, 3, 6));
+    assertEquals(1, CountOutsideRange.countOutsideRange(new int[]{7}, 3, 6));
 }
 ```
 
@@ -143,25 +143,44 @@ a. a total of 27 combinations
 
 b. Pair-wise Coverage
 
+
 (P, N, Z)
+
 (P, Z, P)
+
 (P, P, N)
+
 (Z, P, P)
+
 (Z, Z, Z)
+
 (Z, N, N)
+
 (N, P, P)
+
 (N, Z, Z)
+
 (N, N, N)
+
 (P, N, P)
+
 (P, Z, N)
+
 (P, P, Z)
 
 c.
+
 (P, P, P) <-- base test
+
 (P, P, N)
+
 (P, P, Z)
+
 (P, N, P)
+
 (P, Z, P)
+
 (N, P, P)
+
 (Z, P, P)
 
