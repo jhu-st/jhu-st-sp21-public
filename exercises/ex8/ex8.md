@@ -56,7 +56,7 @@ if (values[i] > values[r])
 <br />
 <br />
 
-M4
+* M4
 ```java
 if (values[i] > values[r]) 
 * if (-values[i] > values[r])
@@ -68,7 +68,7 @@ if (values[i] > values[r])
 <br />
 <br />
 
-M5
+* M5
 ```java
 if (values[i] > values[r]) 
 * if (values[i] == values[r])
