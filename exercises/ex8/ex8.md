@@ -18,11 +18,11 @@ Weakly killing satisfies reachability and infection, but not propagation
 1 int max(int[] values) {
 2   int r, i;
 3   r = 0;
-4    for(i = 1; i < values.length; i++) {
-5        if (values[i] > values[r])
-6           r = i;
-7    }
-8    return values[r];
+4   for(i = 1; i < values.length; i++) {
+5       if (values[i] > values[r])
+6          r = i;
+7   }
+8   return values[r];
 9 }
 ```
 <br /><br />
