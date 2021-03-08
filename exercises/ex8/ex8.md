@@ -55,12 +55,14 @@ if (values[i] > values[r])
 
 <br />
 <br />
+
 M4
 ```java
 if (values[i] > values[r]) 
 * if (-values[i] > values[r])
 ```
 <br />
+
 [1, 2] kills it
 
 <br />
